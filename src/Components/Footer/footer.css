@@ -1,0 +1,17 @@
+.footer-container {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.footer-container img {
+  width: 45px;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.footer-container a {
+  cursor: pointer;
+}

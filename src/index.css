@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 60px 0;
+  font-family: "Helvetica";
+  -webkit-font-smoothing: antialiased;
+  font-size: 1em;
+}
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+#root {
+  min-height: 90vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 40px;
+}

@@ -1,0 +1,49 @@
+.header-container {
+  width: 100%;
+  height: 60px;
+  display: block;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  box-shadow: 0 1px 10px rgba(192, 192, 192, 0.5);
+  background-color: #ffffff;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-left: 20vw;
+  cursor: pointer;
+}
+.header-nav {
+  float: right;
+  margin: 20px 50px;
+}
+.search-icon {
+  font-size: 1.5em;
+  float: left;
+  margin-left: -40vw;
+}
+.search-icon:hover {
+  color: orange;
+}
+.cart-contain,
+.search-icon {
+  cursor: pointer;
+}
+.cart-items-count {
+  font-size: 0.9em;
+  padding: 2px;
+  vertical-align: super;
+  color: red;
+}
+.cart-text {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    margin-left: 10vw;
+  }
+}

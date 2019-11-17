@@ -1,0 +1,135 @@
+.cart-container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.order-title {
+  width: 40%;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.offer-container {
+  height: 100px;
+  background-color: rgba(192, 192, 192, 0.3);
+}
+
+.cart-card-title {
+  background-color: rgb(255, 140, 8);
+  padding: 15px;
+  height: 70px;
+  color: #ffffff;
+  font-size: 1.3em;
+}
+.title-buffet {
+  float: left;
+  font-size: 1.4em;
+}
+.title-date {
+  float: right;
+  text-align: center;
+}
+.cart-items-container {
+  width: 30%;
+  margin: 10px auto;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 5px;
+  text-align: left;
+}
+
+.cart-item {
+  width: 100%;
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+.cart-items-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+.cart-items-right {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+}
+.cart-item-name {
+  font-size: 1.4em;
+  float: left;
+  margin-bottom: 5px;
+}
+.cart-item-price {
+  text-align: right;
+  margin-right: 23px;
+}
+.cart-items-right {
+  width: 50%;
+}
+.cart-item-updator {
+  font-size: 1.1em;
+  float: right;
+}
+
+.cart-item-details {
+  color: rgb(93, 93, 93);
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.cart-total-text {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: left;
+}
+.cart-total-amount {
+  text-align: right;
+  font-size: 1.7em;
+}
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+button {
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.clear-button {
+  background-color: rgb(255, 188, 4);
+}
+.confirm-button {
+  background-color: rgb(255, 187, 0);
+}
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+  .cart-items-container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .cart-items-container {
+    width: 80%;
+  }
+}

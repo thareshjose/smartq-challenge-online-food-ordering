@@ -1,0 +1,44 @@
+.search-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.search-bar {
+  padding: 10px;
+}
+.search-bar-input {
+  width: 70%;
+  height: 50px;
+  font-size: 1.5em;
+  text-align: center;
+}
+.search-results {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+.search-result-item {
+  width: 98%;
+  padding: 20px;
+  border-bottom: 1px solid rgb(187, 183, 183);
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 1px 5px rgba(144, 144, 144, 0.7);
+}
+
+.search-result-food-name {
+  font-size: 1.6em;
+}
+
+@media screen and (max-width: 768px) {
+  .search-container {
+    width: 95%;
+  }
+  .search-bar-input {
+    width: 100%;
+  }
+  .search-results {
+    width: 100%;
+  }
+}
