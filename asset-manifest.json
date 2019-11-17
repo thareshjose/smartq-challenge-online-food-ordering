@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/smartq-challenge-online-food-ordering/static/css/main.67443316.chunk.css",
+    "main.js": "/smartq-challenge-online-food-ordering/static/js/main.e2d53d34.chunk.js",
+    "main.js.map": "/smartq-challenge-online-food-ordering/static/js/main.e2d53d34.chunk.js.map",
+    "runtime-main.js": "/smartq-challenge-online-food-ordering/static/js/runtime-main.357fd1c5.js",
+    "runtime-main.js.map": "/smartq-challenge-online-food-ordering/static/js/runtime-main.357fd1c5.js.map",
+    "static/js/2.7913d77a.chunk.js": "/smartq-challenge-online-food-ordering/static/js/2.7913d77a.chunk.js",
+    "static/js/2.7913d77a.chunk.js.map": "/smartq-challenge-online-food-ordering/static/js/2.7913d77a.chunk.js.map",
+    "index.html": "/smartq-challenge-online-food-ordering/index.html",
+    "precache-manifest.b679d52f394ee99664cbae11f754318f.js": "/smartq-challenge-online-food-ordering/precache-manifest.b679d52f394ee99664cbae11f754318f.js",
+    "service-worker.js": "/smartq-challenge-online-food-ordering/service-worker.js",
+    "static/css/main.67443316.chunk.css.map": "/smartq-challenge-online-food-ordering/static/css/main.67443316.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.357fd1c5.js",
+    "static/js/2.7913d77a.chunk.js",
+    "static/css/main.67443316.chunk.css",
+    "static/js/main.e2d53d34.chunk.js"
+  ]
+}
